@@ -13,10 +13,8 @@ function getMinimumDeflatedDiscCount(N, R) {
         inflation = R[i] - Max + 1
         Max = Max -1
         minDisk ++
-        console.log("max Num",Max, i)
       } else{
         Max = R[i]
-        console.log("min Num",Max, i)
       }
         if(Max == 1 && i > 0){
         minDisk = -1
